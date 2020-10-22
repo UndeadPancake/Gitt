@@ -9,7 +9,7 @@ namespace Gitt
             //Console.WriteLine("Hello World!");
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("{0}^3 = {1}", i, i * i * i);
+                Console.WriteLine("sqrt({0}) = {1}", i, Math.Sqrt(i));
             }
             Console.ReadKey();
         }
